@@ -1,4 +1,5 @@
 import video from "../data/video.js";
+import Buttons from "./Buttons.js";
 import VideoDetails from "./VideoDetails.js";
 
 function App( ) {
@@ -16,6 +17,8 @@ function App( ) {
         title="Thinking in React"
       />
       <VideoDetails title={video.title} views={video.views} createdAt={video.createdAt}/>
+      <Buttons />
+      <hr></hr>
     </div>
   );
 }
