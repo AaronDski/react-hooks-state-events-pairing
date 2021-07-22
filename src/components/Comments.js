@@ -11,6 +11,7 @@ function Comments (){
                         <>
                         <h3>{item.user}</h3>
                         <p>{item.comment} </p>
+                        <button>Remove</button>
                         </>
                     )
                 }) }
